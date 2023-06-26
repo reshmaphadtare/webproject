@@ -1,0 +1,96 @@
+.detailsPageBackground {
+    /* background-color: #f4f4f4; */
+    flex: 1 1 auto;
+    width: 100%;
+    margin-top: 20px;
+}
+form {
+    position: relative;
+    background-color: aqua;
+    /* width: 30%; */
+    height: 100%;
+    display: block;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 8px 40px 8px 20px;
+    border: none;
+    background-color: #e7e7e7;
+}
+.inputbox {
+    /* width: 30%; */
+    height: 100%;
+    display: block;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+    background-color: #e7e7e7;
+}
+.searchButton { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+.searchButton .searchIcon {
+    color: #6d6d6d
+}
+.plusWrapper {
+    background-color: #a9312b;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.welcomeText {
+    font-size: 20px;
+}
+.plusIcon {
+    color: #fff;
+}
+.horizontal-display-card {
+    /* box-shadow: 7px 10px 16px -7px #d5d5d5; */
+    box-shadow:5px 5px 7px 0px #b2b1b1 ;
+
+    border-radius: 14px;
+}
+.cardWrapper {
+    margin-top: 50px;
+}
+.cardheader {
+    background: none;
+    padding: 2px;
+}
+.showCount {
+    font-size: 30px;
+}
+.emptyCard {
+    height: 100%;
+}
+.datePicker {
+    background: none !important;
+    border: none;
+}
+.dateWrapper {
+    margin-right: 15px;
+}
+.informationwrapper {
+    cursor: pointer;
+}
+.plusIconContainer {
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+input:focus {
+    outline: none;
+
+  }
+  

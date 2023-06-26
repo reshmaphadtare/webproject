@@ -1,0 +1,56 @@
+{
+    "moviecount":[
+        {
+        "id": 1,
+        "name": "Shows Booking",
+        "showcount": 2304,
+        "count": 2650
+        },
+        {
+        "id": 2,
+        "name": "Events Booking",
+        "showcount": 438,
+        "count": 349
+        },
+        {
+        "id": 3,
+        "name": "Shows Ended",
+        "showcount": 1876,
+        "count": 2283
+        },
+        {
+        "id": 4,
+        "name": "Upcoming Shows",
+        "showcount": 3475,
+        "count": 3475 
+        }
+    ],
+    "bookingList":[
+        {
+            "id":1,
+            "ticket": "3 Tickets for Movie 123",
+            "bookedby": "booked by Rajesh Mehta"
+        },
+        {
+            "id":2,
+            "ticket": "5 Tickets for Movie 115",
+            "bookedby": "booked by Param Sinha"
+        },
+        {
+            "id":3,
+            "ticket": "1 Tickets for Movie 125",
+            "bookedby": "booked by Sita Ramesh"
+        },
+        {
+            "id":4,
+            "ticket": "x Tickets for Movie xxx",
+            "bookedby": "booked by xxxx xxxxs"
+        },
+        {
+            "id":5,
+            "ticket": "x Tickets for Movie xxx",
+            "bookedby": "booked by xxxx xxxxs"
+        }
+    ]
+
+}
