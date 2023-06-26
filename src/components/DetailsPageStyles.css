@@ -1,5 +1,4 @@
 .detailsPageBackground {
-    /* background-color: #f4f4f4; */
     flex: 1 1 auto;
     width: 100%;
     margin-top: 20px;
@@ -7,7 +6,6 @@
 form {
     position: relative;
     background-color: aqua;
-    /* width: 30%; */
     height: 100%;
     display: block;
     border-radius: 25px;
@@ -17,7 +15,6 @@ form {
     background-color: #e7e7e7;
 }
 .inputbox {
-    /* width: 30%; */
     height: 100%;
     display: block;
     border-radius: 25px;
