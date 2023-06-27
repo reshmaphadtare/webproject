@@ -86,7 +86,7 @@ const DetailPage = () => {
               data?.bookingList.map((item, index) => {
                 return <div key={index}>
                 <CardText className='m-0'>{item.ticket}</CardText>
-                <CardText>{item.bookedby}</CardText>
+                <CardText className='mb-3'>{item.bookedby}</CardText>
                   </div>
                 })
               }
