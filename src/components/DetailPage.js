@@ -57,8 +57,8 @@ const DetailPage = () => {
       {data && 
         data?.moviecount.map((item, index)=> {
           return <>
-          <Col md={3}>
-          <Card className="horizontal-display-card">
+          <Col md={3} >
+          <Card className="horizontal-display-card" key={index} >
             <CardBody>
               <CardHeader className='cardheader fw-bold d-flex justify-content-between'>{item.name}
               <span className='informationwrapper'>
@@ -84,10 +84,10 @@ const DetailPage = () => {
             <CardHeader className='cardheader fw-bold mb-1'>{dashboard.bookingListHeader}</CardHeader>
             {data && 
               data?.bookingList.map((item, index) => {
-                return <>
+                return <div key={index}>
                 <CardText className='m-0'>{item.ticket}</CardText>
                 <CardText>{item.bookedby}</CardText>
-                  </>
+                  </div>
                 })
               }
               </CardBody>
